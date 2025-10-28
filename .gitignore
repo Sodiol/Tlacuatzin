@@ -1,3 +1,30 @@
-# Godot 4+ specific ignores
+# --- GODOT 4 ---
 .godot/
-/android/
+.import/
+export/
+android/
+ios/
+
+# --- C# / .NET ---
+.mono/
+data_*/
+mono_crash.*
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+bin/
+obj/
+
+# --- SISTEMA / EDITORES ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- BACKUPS / TEMPORALES ---
+*.tmp
+*.log
+*.bak
